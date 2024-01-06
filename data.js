@@ -22,7 +22,7 @@ export const products = [
         OGRN: 1067746062449,
         address: '142181, Московская обл, г.о. Подольск, д Коледино, тер. Индустриальный парк Коледино, д. 6, стр. 1'
       },
-      image: './assets/images/t-shirt.png',
+      image: '/t-shirt.png',
       isChecked: true,
       deliveryTime: [
         {
@@ -55,7 +55,7 @@ export const products = [
         OGRN: 5167746237148,
         address: '129337, Москва, улица Красная Сосна, 2, корпус 1, стр. 1, помещение 2, офис 34'
       },
-      image: './assets/images/case.png',
+      image: '/case.png',
       isChecked: true,
       deliveryTime: [
         {
@@ -92,7 +92,7 @@ export const products = [
         OGRN: 1067746062449,
         address: '142181, Московская обл, г.о. Подольск, д Коледино, тер. Индустриальный парк Коледино, д. 6, стр. 1'
       },
-      image: './assets/images/pencils.png',
+      image: 'pencils.png',
       isChecked: true,
       deliveryTime: [
         {
@@ -125,22 +125,22 @@ export const products = [
   export const paymentInfo = [
     {
       name: 'mir',
-      logo: './assets/favicon/mir.svg',
+      logo: './public/favicon/mir.svg',
       number: '1234 56•• •••• 1234'
     },
     {
       name: 'visa',
-      logo: './assets/favicon/visa.svg',
+      logo: './public/favicon/visa.svg',
       number: '1234 56•• •••• 1234'
     },
     {
       name: 'mastercard',
-      logo: './assets/favicon/mastercard.svg',
+      logo: './public/favicon/mastercard.svg',
       number: '1234 56•• •••• 1234'
     },
     {
       name: 'maestro',
-      logo: './assets/favicon/maestro.svg',
+      logo: './public/favicon/maestro.svg',
       number: '1234 56•• •••• 1234'
     }
   ]
